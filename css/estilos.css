@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: lightcoral;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+button{
+    background-color: blueviolet;
+    margin: 1px;
+    width: 100%;
+}
+.contenedor{
+    width: 50%;
+    padding: 20px;
+    border: 5px solid peachpuff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content: center;
+    background-color: springgreen;
+    box-shadow: -webkit-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);;
+    
+    
+}
+@media(max-width: 850px;){
+    button{
+        width: 80%;
+    }
+}
+button:hover{
+    background-color: chocolate;
+}
